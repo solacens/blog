@@ -42,7 +42,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: solacens/blog-hugo
+          repository: solacens/blog-content
           ref: refs/heads/main
           token: ${{ secrets.GH_PAT }}
           submodules: recursive
