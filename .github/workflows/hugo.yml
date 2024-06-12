@@ -42,7 +42,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: solacens/blog
+          repository: solacens/blog-hugo
           ref: refs/heads/main
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
