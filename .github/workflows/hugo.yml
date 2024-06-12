@@ -42,7 +42,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          name: solacens/blog
+          repository: solacens/blog
           ref: refs/heads/main
           # token: ${{ secrets.pat }}
           submodules: recursive
