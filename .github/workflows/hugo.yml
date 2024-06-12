@@ -44,7 +44,7 @@ jobs:
         with:
           repository: solacens/blog
           ref: refs/heads/main
-          # token: ${{ secrets.pat }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
       - name: Setup Pages
         id: pages
